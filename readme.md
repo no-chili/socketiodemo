@@ -49,6 +49,7 @@ socket.close()
 ```
 
 ### 其他
+```
 //给本次链接自己发送消息
 socket.emit()
 //给某个房间内所有人发消息（包括自己）
@@ -57,3 +58,4 @@ io.in(room).emit()
 socket.to(room).emit()
 //除本连接外，给所有人发消息（不包括自己的整个个站点其他人）
 socket.broadcast.emit()
+```
